@@ -4,7 +4,7 @@ const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo St
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
 function theBeatlesPlay() {
-for (let i=0,i<musicians.length,i++) {
+for (let i=0; i < musicians.length;i++) {
   targetArray.push(`${musicians[i]} plays ${instruments[i]}.`);
 }
 return targetArray;
