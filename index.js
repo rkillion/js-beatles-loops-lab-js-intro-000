@@ -18,6 +18,9 @@ const lennonFactList = ["He was the last Beatle to learn to drive",
 var counter = -1;
 var incrementCounter = () => {counter++;};
 
-function johnLennonFacts() {
-
+function johnLennonFacts(array) {
+  let newArray = [];
+  for (let i = 0;i<array.length;i++) {
+    newArray.push(`${array[i]}!!!`);
+  }
 }
